@@ -1,0 +1,38 @@
+.login {
+  text-align: center;
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: url("../../image/IMG_20160913_110405.jpg");
+}
+
+.login--google {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 400px;
+  cursor: pointer;
+  border: 0px;
+}

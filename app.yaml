@@ -1,0 +1,16 @@
+# [START runtime]
+runtime: nodejs
+env: flex
+# [END runtime]
+api_version: 1
+threadsafe: true
+
+# [START handlers]
+handlers:
+- url: /
+  static_files: build/index.html
+  upload: build/index.html
+
+- url: /
+  static_dir: build
+# [END handlers]
